@@ -1,0 +1,161 @@
+.checkout .breadcrumb-page,
+.shopping-cart .breadcrumb-page{
+  padding: 12px 0 41px 0;
+}
+.checkout .breadcrumb-page{
+  padding-bottom: 28px;
+}
+.checkout .title-checkout{
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 15px;
+  margin-bottom: 32px;
+}
+.checkout .form-group {
+    margin-bottom: 22px;
+}
+.checkout .form-group .title{
+  color: #555;
+}
+.checkout .form-group .inline{
+  color: #555;
+  font-size: 13px;
+  font-weight: 600;
+}
+.checkout .form-group.shipping,
+.checkout .form-group.payment{
+  padding-right: 213px;
+}
+.checkout .form-group.shipping{
+  margin-top: -6px;
+}
+.checkout .form-group.shipping .inline{
+  margin-right: 28px;
+  margin-bottom: 47px;
+}
+.checkout .form-group.shipping li{
+  display: inline-block;
+}
+.checkout .form-group.shipping li:last-child .inline{
+  margin-right: 0;
+}
+.checkout .form-group.shipping p,
+.checkout .form-group.payment p{
+  color: #555;
+}
+.checkout .form-group.payment p:nth-child(3){
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+.checkout .form-group.shipping .title-checkout{
+  margin-bottom: 18px;
+}
+.checkout .form-group.payment .title-checkout{
+  margin-bottom: 14px;
+}
+.checkout .form-group.shipping .discount{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 1px solid #e6e6e6;
+  padding:33px 0 6px 0;
+  margin-bottom: 19px;
+}
+.checkout .form-group.shipping .title{
+  color: #666;
+  font-weight: normal;
+}
+.checkout .form-group.shipping .form-control{
+  width: 300px;
+}
+.checkout .form-group.shipping button,
+.checkout .form-group.payment button{
+  font-weight: 600;
+  padding:7px 35px;
+  margin-top: 15px;
+  display: block;
+}
+.checkout .form-group.payment{
+  margin-top: 13px;
+}
+.checkout .form-group.payment .inline{
+  display: block;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+.checkout .form-group.payment li{
+  list-style: none;
+}
+.checkout .form-group.payment .credit{
+  font-size: 13px;
+  color: #666;
+}
+.checkout .grand-total{
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 13px 0 6px 0;
+  display: inline-block;
+}
+.checkout .grand-total span{
+  margin-left: 43px;
+}
+.site-main.checkout + .footer-opt-2 .footer-top{
+  margin-top: 15px;
+}
+label.inline{
+  position: relative;
+  padding-left: 24px;
+}
+.inline .input{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  margin-right: 8px;
+  background: #f9f9f9;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+.inline .input:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  font-size: 10px;
+  color: #fff;
+  line-height: 12px;
+  display: none;
+  text-align: center;
+}
+.inline input:checked ~ .input{
+  background-color: #C81E23;
+  border: 1px solid #C81E23;
+}
+.inline input:checked ~ .input:before{
+  display: block;
+}
+.inline input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+/******responsive-checkout*******/
+@media (max-width: 1199px) {
+  .checkout .form-group.shipping .inline{
+    margin-bottom: 0;
+  }
+  .checkout .form-group.shipping .title-checkout{
+    margin-top: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .checkout .form-group.shipping, 
+  .checkout .form-group.payment{
+    padding-right: 15px;
+  }
+}

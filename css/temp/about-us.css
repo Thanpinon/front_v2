@@ -1,0 +1,104 @@
+.about-us .breadcrumb-page{
+    padding-top: 13px;
+  }
+  .banner-paralax{
+    padding: 33px 0;
+  }
+  .about-text{
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+  }
+  .about-text .about-text-center{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 25px;
+  }
+  .about-text p{
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+  }
+  .about-text-item {
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+  .about-text-item.item-three{
+    padding-bottom: 18px;
+  }
+  .about-text-item p{
+    line-height: 20px;
+  }
+  .title-about-us{
+    font-size: 16px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  .about-text-content {
+      padding-top: 7px;
+  }
+  .about-text-info{
+    padding-bottom: 16px;
+  }
+  .about-text-title{
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 3px;
+  }
+  .about-text-title:before{
+    content: "\f067";
+    font-family: 'FontAwesome';
+    font-size: 14px;
+    color: #666;
+    width: 45px;
+    height: 40px;
+    border:1px solid #e6e6e6;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  .about-text-title:hover:before,
+  .about-text-title.active:before{
+    background-color: #C81E23;
+    color: #fff;
+    border:1px solid #C81E23;
+  }
+  .about-text-title.active:before{
+    content: "\f068";
+  }
+  .text-info{
+    font-size: 14px;
+    color: #666;
+    padding-left: 65px;
+    display: block;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -96px;
+  }
+  .about-text-title.active + .text-info{
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+  }
+  @media (max-width: 991px) {
+    .about-text-content{
+      max-width: 390px;
+    }
+  }

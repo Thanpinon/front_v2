@@ -1,0 +1,33 @@
+.blog-grid .breadcrumb-page{
+    padding: 15px 0 30px 0;
+  }
+  .post-grid.post-items {
+    padding-top: 4px;
+  }
+  .post-grid .post-item{
+    margin-bottom: 30px;
+  }
+  .post-grid.pagination{
+    width: 97.5%;
+    margin: 10px 15px 0 15px;
+  }
+  @media (max-width: 991px) {
+    .post-grid.pagination{
+      width: 96.5%;
+    }
+  }
+  @media (max-width: 767px) {
+    .post-grid.pagination{
+      width: 95.5%;
+    }
+  }
+  @media (max-width: 640px) {
+    .post-grid.pagination{
+      width: 94.5%;
+    }
+  }
+  @media (max-width: 480px) {
+    .post-grid.pagination{
+      width: 90.5%;
+    }
+  }

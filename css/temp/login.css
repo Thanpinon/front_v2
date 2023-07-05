@@ -1,0 +1,131 @@
+.site-login .breadcrumb-page{
+    padding-top: 13px;
+  }
+  .customer-login {
+      margin-top: 28px;
+  }
+  .title-login,
+  .title-contact{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-detail .title-contact{
+    margin-bottom: 15px;
+  }
+  .title-login:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 82.5%;
+    background-color: #e6e6e6;
+    content: '';
+    display: inline-block;
+    height: 1px;
+  }
+  .p-title-login {
+      margin-bottom: 23px;
+  }
+  .login{
+    width: 470px;
+  }
+  .register{
+    width: 570px;
+  }
+  .login li,
+  .register li{
+    list-style: none;
+  }
+  .border-after:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #e6e6e6;
+    top: 0;
+    left: -47px;
+  }
+  .login label,
+  .register label{
+    font-weight: 600;
+    color: #333;
+  }
+  .login .inline,
+  .register .inline,
+  .forgot-password{
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+  .login .inline input,
+  .register .inline input,
+  .checkout .form-group .inline input{
+    margin-right: 8px;
+    width: 15px;
+    height: 15px;
+  }
+  .forgot-password{
+    float: right;
+  }
+  .form-row.form-row-wide{
+    margin-bottom: 10px;
+  }
+  .form-row .input-text{
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #aaa;
+    height: 40px;
+  }
+  .login input.button-submit,
+  .register input.button-submit,
+  .form-contact input.button-submit{
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 8px 42px;
+    background-color: #C81E23;
+    margin-top: 28px;
+  }
+  .register input.button-submit{
+    margin-top: 10px;
+  }
+  .login input.button-submit:hover,
+  .register input.button-submit:hover,
+  .form-contact input.button-submit:hover{
+    background-color: #222;
+  }
+  .title-login-bottom:after{
+    display: none;
+  }
+  .title-login-bottom{
+    padding: 10px 0;
+  }
+  /********responsive-login******/
+  @media (max-width: 1199px) {
+    .login,.register{
+      width: auto;
+    }
+    .border-after:after{
+      left: 0;
+    }
+    .register .padding-right,
+    .register .padding-left{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  @media (max-width: 767px){
+    .border-after{
+      padding-top: 30px;
+    }
+    .border-after:after{
+      display: none;
+    }
+  }

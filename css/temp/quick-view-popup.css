@@ -1,0 +1,207 @@
+.quick-view-content{
+    background: #fff;
+    width: 830px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 10%;
+    z-index: 99999999;
+    position: relative;
+  }
+  .quick-view-content .popup-btn-close{
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .quick-view-content .product-image {
+    float: left;
+  }
+  .quick-view-content .product-info {
+    overflow: hidden;
+  }
+  .quick-view-content .product-info-price{
+    overflow: hidden;
+    padding-top: 10px;
+  }
+  .quick-view-content .product-name{
+    margin-top: 4px;
+    max-width: 317px;
+  }
+  .quick-view-content .product-name a {
+    font-size: 18px;
+  }
+  .quick-view-content .star-rating{
+    font-size: 15px;
+    margin-bottom: 26px;
+  }
+  .quick-view-content  .star-rating .review{
+    font-size: 15px;
+  }
+  .quick-view-content .wishlist{
+    font-size: 13px;
+    color: #666;
+    margin-left: 37px;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 31px;
+  }
+  .quick-view-content .wishlist .fa{
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  .quick-view-content .product-infomation{
+    font-size: 14px;
+    color: #666;
+    line-height: 17px;
+  }
+  .quick-view-content .product-info-price .price{
+    display: block;
+    margin-bottom: 29px;
+  }
+  .quick-view-content .product-info-price .price ins{
+    font-size: 30px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    display: inline-block;
+  }
+  .quick-view-content .product-info-price .price del{
+    font-size: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
+  .quick-view-content .buttons-added{
+    width: 142px;
+    margin:0;
+  }
+  .quick-view-content .quantity{
+    display: inline-block;
+    margin-right: 17px;
+  }
+  .quick-view-content .btn-add-to-cart{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 11px 47px;
+    background: #C81E23;
+    color: #fff;
+    border:1px solid #C81E23;
+    vertical-align: bottom;
+  }
+  .quick-view-content .btn-add-to-cart:hover{
+    background: #222;
+    border:1px solid #222;
+  }
+  .bx-wrapper .bx-loading,
+  .bx-wrapper .bx-prev,
+  .bx-wrapper .bx-next,
+  .bx-wrapper .bx-controls-auto .bx-start,
+  .bx-wrapper .bx-controls-auto .bx-stop{
+    background: none;
+  }
+  .slide-quick{
+    float: left;
+  }
+  .quick-view-content .img-product-thumb{
+    display: block;
+    /*width: 100%!important;*/
+    position: relative;
+    margin-bottom: -1px;
+  }
+  .quick-view-content .bx-wrapper .bx-viewport{
+    border:0;
+    box-shadow: none;
+    left: 0
+  }
+  .quick-view-content .img-product-thumb:nth-child(5):after,
+  .quick-view-content .img-product-thumb:hover:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #C81E23;
+    width: 100%;
+    height: 4px;
+  }
+  @media (max-width: 991px) {
+    .quick-view-content{
+      width: 760px;
+      padding: 30px 15px 30px 15px;
+    }
+  }
+  @media (max-width: 767px) {
+    .block-quick-view-popup.open{
+      overflow-y: auto;
+    }
+    .quick-view-content{
+      width: 470px;
+    }
+    .quick-view-content .product-image {
+      float: inherit;
+    }
+    .quick-view-content .product-name{
+      max-width: 100%;
+    }
+    .quick-view-content .star-rating{
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+  }
+  @media (max-width: 480px){
+    .quick-view-content {
+      width: 320px;
+    }
+    .product-items {
+      overflow: hidden;
+      width: 72%;
+      padding-left: 22px;
+    }
+    .products .product-items{
+      width: 100%;
+    }
+    .quick-view-content .wishlist{
+      padding: 0;
+      margin: 0;
+      border:none;
+    }
+    .quick-view-content .buttons-added{
+      margin-bottom: 15px;
+    }
+  }
+  .header-menu-bar{
+    background: #fff;
+    z-index: 99;
+  }
+  .index-opt-1 .sticky-wrapper,
+  .index-opt-5 .sticky-wrapper{
+      height: 41px!important;
+    }
+  @media (max-width: 991px) {
+    .header-menu-bar,
+    .header-menu-bar.sticky-menu{
+      position: relative !important;
+      background: inherit;
+    }
+    .index-opt-1 .sticky-wrapper,
+    .index-opt-5 .sticky-wrapper{
+      height: 0!important;
+    }
+  }
+  .btn-zoom.open_qv{
+    position: absolute;
+    width: 40px;
+    top: 37%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 32;
+    border: 1px solid #ddd;
+    color: #ddd;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .btn-zoom.open_qv:hover{
+    background: #C81E23;
+    color: #fff;
+    border: 1px solid #C81E23 ;
+  }

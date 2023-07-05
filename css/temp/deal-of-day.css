@@ -1,0 +1,280 @@
+.block-daily-deals.style1{
+    margin-top: 30px;
+  }
+  .block-daily-deals.style1 .product-name{
+    margin-bottom: 10px;
+  }
+  .block-daily-deals.style1 .price del{
+    text-decoration: line-through;
+  }
+  .deal-of-day {
+      padding: 28px 20px;
+      background: #fff;
+      /*border-bottom: 1px solid #e6e6e6;*/
+  }
+  .title-of-section{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #333;
+    position: relative;
+  }
+  .title-of-section.style2:after {
+      position: absolute;
+      bottom: -15px;
+      background: #eee;
+      width: 100%;
+      height: 1px;
+      content: "";
+      left: 0;
+  }
+  .block-section-5 .tab-content{
+    padding-top: 23px;
+  }
+  .product-thumb.style1{
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-thumb.style1 img {
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+  .product-thumb.style1:hover img {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
+  }
+  .product-innfo {
+      overflow: hidden;
+      padding-left: 25px;
+  }
+  .product-name{
+    margin-bottom: 6px;
+    line-height: 20px;
+  }
+  .product-name a{
+    font-size: 14px;
+    color: #222;
+  }
+  .product-name a:hover{
+    color: #666;
+  }
+  .price{
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  .price ins{
+    font-size: 18px;
+    color: #c30c0c;
+    font-family: 'Noto', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  .price-dark{
+    display: inherit;
+  }
+  .price-dark ins{
+    color: #222;
+  }
+  .price del{
+    font-size: 14px;
+    color: #bbbbbb;
+    font-family: 'Noto', sans-serif;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  .product-item.style1 .product-name,
+  .product-item.style2 .product-name{
+    margin-bottom: 2px;
+  }
+  .product-item.style1 .price ins{
+    font-size: 15px;
+  }
+  .product-item.style1 .price del{
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  .star-rating {
+      display: inline-block;
+      color: #f29f29;
+      margin-bottom: 11px;
+      font-size: 12px;
+  }
+  .index-opt-1 .block-section-4 .star-rating {
+    margin-bottom: -2px;
+  }
+  .product-item.style2 .star-rating{
+    font-size: 14px;
+  }
+  .star-rating .review{
+    font-size: 12px;
+    color: #aaa;
+  }
+  .onsale,
+  .onnew{
+    background-color: #c30c0c;
+    color: #fff;
+    font-size: 13px;
+    padding: 1px 10px;
+    position: relative;
+  }
+  .block-daily-deals.style2 .onsale, 
+  .block-daily-deals.style2 .onnew{
+    line-height: 18px;
+    height: 20px;
+    display: inline-block;
+  }
+  .onnew{
+    text-transform: uppercase;
+    background-color: #C81E23;
+  }
+  .onsale:before,
+  .onnew:before{
+    position: absolute;
+      top: 0;
+      right: -3px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 3px 0 13px;
+      border-color: #c30c0c transparent transparent transparent;
+  }
+  .onnew:before{
+    border-color: #C81E23 transparent transparent transparent;
+  }
+  .kt-countdown{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .product-count-down .box-count{
+    text-align: center;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .product-count-down .number{
+    color: #222;
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 9px;
+    display: inline-block;
+    font-family: 'Noto', sans-serif;
+    background-color: #eee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .product-count-down .dot{
+    display: none;
+  }
+  .product-count-down .box-count .text{
+      font-size: 10px;
+      display: block;
+      color: #aaa;
+  }
+  .btn-add-to-cart{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    border: 2px solid #c81e2352;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 7px 53px;
+  }
+  .btn-add-to-cart:hover{
+    color: #fff;
+    background-color: #C81E23;
+    border-color: #C81E23;
+  }
+  .block-daily-deals.style2 {
+    margin-top: 25px;
+  }
+  .block-daily-deals.style2 .title-of-section{
+    display: inline-block;
+    position: relative;
+  }
+  .block-daily-deals.style2 .deal-of-day{
+    border-bottom: 1px solid #fff;
+    padding-top: 0px;
+    padding-bottom: 27px;
+    border-right: 1px solid #e6e6e6;
+    margin:30px 1px;
+  }
+  .owl-item.active.item-last .deal-of-day{
+    border-right: none;
+  }
+  .block-daily-deals.style2 .block-daily-deals-content{
+      border: 1px solid #e6e6e6;
+  }
+  .block-daily-deals.style2 .border-background {
+      border: 1px solid #fff;
+      margin: 30px 0;
+  }
+  .block-daily-deals.style2 .product-name{
+    padding-top: 22px;
+  }
+  .block-daily-deals.style2 .product-count-down{
+    display: inline-block;
+    padding:0 0 6px 210px;
+  }
+  .block-daily-deals.style2 .product-count-down .number{
+    margin-right: 5px;
+  }
+  .block-daily-deals.style2 .product-count-down .box-count .text{
+    display: inline-block;
+    margin-top: 0;
+    line-height: 40px;
+  }
+  .block-daily-deals.style2 .kt-countdown{
+    margin-bottom: 0;
+  }
+  .block-daily-deals.style2 .product-innfo{
+    padding-left: 10px;
+  }
+  .block-daily-deals.style2 .btn-add-to-cart{
+    padding: 6px 40px;
+  }
+  .block-daily-deals.style3 .product-item.style1 .product-innfo{
+    padding: 0 0 15px 0;
+  }
+  .block-daily-deals.style3 .product-item.style1 .onsale{
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+  .block-daily-deals.style3 .star-rating{
+    display: block;
+    font-size: 14px;
+  }
+  .block-daily-deals.style3 .title-count-down,
+  .block-daily-deals.style3 .kt-countdown{
+    display: inline-block;
+  }
+  .block-daily-deals.style3 .title-count-down{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    vertical-align: top;
+  }
+  .block-daily-deals.style3 .title-count-down span{
+    display: block;
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .block-daily-deals.style3 .kt-countdown{
+    float: right;
+  }
+  .block-daily-deals.style3 .product-count-down .box-count:last-child{
+    padding-right: 0;
+  }

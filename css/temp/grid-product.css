@@ -1,0 +1,90 @@
+.products.products-grid {
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    display: inline-block;
+}
+.products-grid .product-item.style1:nth-child(4n+1) {
+  clear:left;
+}
+.products-grid .product-item.style1{
+  display: grid;
+}
+.products-grid .product-item.style1 .product-thumb{
+    text-align: center;
+}
+.products-grid .product-item.style1 .product-innfo{
+  padding: 0 10px 22px 10px;
+}
+.products-grid .product-item.style1 .info-product{
+  border-top: 1px solid #e6e6e6;
+  padding: 7px 0 19px 0;
+}
+.products-grid .product-item.style1 .price del{
+  text-decoration: line-through;
+}
+.products-grid .product-item.style1 .info-product p{
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 13px;
+  padding: 3px 0;
+}
+.products-grid .single-add-to-cart {
+    padding: 0 9px;
+}
+.products-grid .btn-add-to-cart{
+  font-size: 13px;
+  padding: 4px 40px;
+}
+.grid-view .block-recent-view{
+  padding-top: 50px;
+}
+.product-grid .single-add-to-cart .compare {
+    margin-right: 29px;
+}
+/*****responsive-grid-product*****/
+@media (max-width: 1199px){
+  .products-grid .product-item.style1:nth-child(3n+1){
+    clear:left;
+  }
+  .products-grid .product-item.style1:nth-child(4n+1) {
+    clear: inherit;
+  }
+  .products-grid .single-add-to-cart{
+    padding-left: 0;
+  }
+}
+@media (max-width: 991px){
+  .products-grid .product-item.style1:nth-child(2n+1){
+    clear:left;
+  }
+  .products-grid .product-item.style1:nth-child(3n+1){
+    clear:inherit;
+  }
+  .products-grid .single-add-to-cart .compare, .products-grid .single-add-to-cart .wishlist{
+    display: initial;
+  }
+  .products-grid .btn-add-to-cart{
+    margin-bottom: 8px;
+  }
+  .products-grid .single-add-to-cart .compare{
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px){
+  .products-grid .btn-add-to-cart {
+    margin-bottom: 0px;
+  }
+  .products-grid .single-add-to-cart .compare, .products-grid .single-add-to-cart .wishlist{
+    display: table-cell;
+  }
+  .products-grid .single-add-to-cart .compare{
+    padding-right: 21px;
+  }
+}
+@media (max-width: 480px){
+  /*.products-grid .product-item.style1.col-xs-6 {
+    width: 100%;
+  }*/
+  .products-grid .product-item.style1 .product-thumb{
+    text-align: center;
+  }
+}
